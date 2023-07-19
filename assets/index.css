@@ -29,6 +29,7 @@
       border-collapse: collapse;
       width: 100%;
       table-layout: fixed;
+      overflow-x:auto;
     }
     
     #table td, #table th {
