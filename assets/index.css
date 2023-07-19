@@ -28,7 +28,7 @@
       font-family: Arial, Helvetica, sans-serif;
       border-collapse: collapse;
       width: 100%;
-      table-layout: fixed;
+      table-layout: auto;
     }
     
     #table td, #table th {
