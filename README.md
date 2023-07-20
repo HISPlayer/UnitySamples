@@ -52,3 +52,10 @@
 | AAC          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | MP3          | :heavy_check_mark: | :heavy_check_mark: |                    |                    | :heavy_check_mark: |
 | ALAC         | :x:                | :heavy_check_mark: | :x:                | :x:                | :heavy_check_mark: |
+
+<br>
+
+| Subtitles Formats | Android            | iOS                | WebGL              | Windows            | MacOS              |
+|-------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
+| CEA-608           | :heavy_check_mark: | :heavy_check_mark: | :x:                | :heavy_check_mark: | :heavy_check_mark: |
+| WebVTT            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :heavy_check_mark: | :heavy_check_mark: |
