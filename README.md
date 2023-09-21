@@ -28,7 +28,7 @@
 |------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
 | HLS                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | DASH                   | :heavy_check_mark: | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                |
-| Local Playback         | :heavy_check_mark: | :x:                | :x:                | :heavy_check_mark: | :x:                |
+| Local Playback         | :heavy_check_mark: | :heavy_check_mark: | :x:                | :heavy_check_mark: | :heavy_check_mark: |
 
 <br>
 
