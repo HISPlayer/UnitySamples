@@ -21,6 +21,7 @@
 | VR                             | :heavy_check_mark: Oculus   | :x:                    | :x:                | :heavy_check_mark: HoloLens| :x:                |
 | Progressive Download           | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
 | AES-128                        | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
+| Ad-Insertion                   | :x:                         | :x:                    | :heavy_check_mark: | :x:                        | :x:                |
 
 <br>
 
