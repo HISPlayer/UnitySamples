@@ -16,7 +16,7 @@
 | Change Video Content           | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
 | Current Playback Time/Position | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
 | Total Playback Time            | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
-| Playback Speed Control         | :heavy_check_mark:          | :x:                    | :x:                | :x:                        | :x:                |
+| Playback Speed Control         | :heavy_check_mark:          | :heavy_check_mark:     | :x:                | :heavy_check_mark:         | :heavy_check_mark: |
 | Multistream                    | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :x:                        | :heavy_check_mark: |
 | VR                             | :heavy_check_mark: Oculus   | :x:                    | :x:                | :heavy_check_mark: HoloLens| :x:                |
 | Progressive Download           | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
