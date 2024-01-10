@@ -63,3 +63,12 @@
 |-------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
 | CEA-608           | :heavy_check_mark: | :heavy_check_mark: | :x:                | :heavy_check_mark: | :heavy_check_mark: |
 | WebVTT            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :heavy_check_mark: | :heavy_check_mark: |
+
+<br>
+
+| Unity Versions | Android            | iOS                | WebGL              | Windows            | MacOS              |
+|----------------|--------------------|--------------------|--------------------|--------------------|--------------------|
+| 2020           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| 2021           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| 2022           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| 2023           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
