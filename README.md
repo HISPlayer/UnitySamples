@@ -46,7 +46,7 @@
 | Video Codecs | Android            | iOS                | WebGL              | Windows              | MacOS              |
 |--------------|--------------------|--------------------|--------------------|----------------------|--------------------|
 | H.264 (AVC)  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:   | :heavy_check_mark: |
-| H.265 (HEVC) | :heavy_check_mark: | :heavy_check_mark: |                    | :heavy_check_mark: * | :heavy_check_mark: |
+| H.265 (HEVC) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: * | :heavy_check_mark: |
 | MPEG-4       | :heavy_check_mark: |                    |                    |                      |                    |
 <p>* <a href="https://apps.microsoft.com/store/detail/hevc-video-extensions/9NMZLZ57R3T7">MS HEVC codec extension</a> is required</p>
 <br>
