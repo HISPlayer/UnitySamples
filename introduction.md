@@ -18,9 +18,6 @@ Please, refer to [Import HISPlayer Sample](/hisplayer-sample.md)
 
 #### Minimum Unity Version
   * 2020.3
-    
-#### Minimum HISPlayer SDK
-  * HISPlayer SDK version 3.4.0
 
 ### <ins> HISPlayer MetaXR 360 Sample</ins>
 
@@ -35,9 +32,6 @@ Please, refer to [Import HISPlayer MetaXR 360 Sample](/hisplayer-metaxr-360-samp
 #### Minimum Unity Version
   * 2021.3.26f1
 
-#### Minimum HISPlayer SDK
-  * HISPlayer SDK version 3.3.0
-
 ### <ins>HISPlayer Oculus 360 Sample</ins>
 
 Please, refer to [Import HISPlayer Oculus 360 Sample](/hisplayer-oculus-360-sample.md)
@@ -50,6 +44,3 @@ Please, refer to [Import HISPlayer Oculus 360 Sample](/hisplayer-oculus-360-samp
     
 #### Minimum Unity Version
   * 2021.3
-
-#### Minimum HISPlayer SDK
-  * HISPlayer SDK version 3.2.0
