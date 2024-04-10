@@ -2,476 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>HISPlayer Unity Features Summary</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/index.css">
+  <title>HISPlayer Unity Samples</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
+<style>
+  :root {
+    --sidebar-width : 450px;
+  }
+  .markdown-section{max-width: 900px;}
+  .sidebar-nav a img, .sidebar nav a img {
+    margin-top: 10px;
+  }
+  .sidebar-nav>ul>li>ul>li>ul>li>a:before {
+    content:none;
+  }
+  .sidebar-nav>ul>li>ul>li>ul>li.active>a:before {
+    content:none;
+  }
 
+  details::before {
+    content: "\025B8";
+    float: left;
+}
+
+details[open]::before {
+    content:"\025BE";
+    float: left;
+}
+
+</style>
 <body>
-  <div class="wrapper">
-    <section class="profile-masthead" id="masthead">
-      <header class="profile-logo">
-        <div class="profile-logo-image">
-          <a href="https://hisplayer.com/">
-            <img src="./assets/logo.jpg" alt="HISPlayer">
-          </a>
-        </div>
-        <div class="profile-name">
-          <h1>HISPlayer</h1>
-          <p>HISPlayer's documentation for Unity and Unreal platforms</p>
-          <ul>
-            <li>
-              <svg class="octicon octicon-location" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
-                <path fill-rule="evenodd" d="M11.536 3.464a5 5 0 010 7.072L8 14.07l-3.536-3.535a5 5 0 117.072-7.072v.001zm1.06 8.132a6.5 6.5 0 10-9.192 0l3.535 3.536a1.5 1.5 0 002.122 0l3.535-3.536zM8 9a2 2 0 100-4 2 2 0 000 4z"></path>
-              </svg>
-              Madrid
-            </li>
-            <li>
-              <svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
-                <path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path>
-              </svg>
-              <a href="http://www.hisplayer.com/">http://www.hisplayer.com</a>
-            </li>
-            <li>
-              <svg class="octicon octicon-mail" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
-                <path fill-rule="evenodd" d="M1.75 2A1.75 1.75 0 000 3.75v.736a.75.75 0 000 .027v7.737C0 13.216.784 14 1.75 14h12.5A1.75 1.75 0 0016 12.25v-8.5A1.75 1.75 0 0014.25 2H1.75zM14.5 4.07v-.32a.25.25 0 00-.25-.25H1.75a.25.25 0 00-.25.25v.32L8 7.88l6.5-3.81zm-13 1.74v6.441c0 .138.112.25.25.25h12.5a.25.25 0 00.25-.25V5.809L8.38 9.397a.75.75 0 01-.76 0L1.5 5.809z"></path>
-              </svg>
-              <a class="color-text-primary" itemprop="email" href="mailto:contact@hisplayer.com">contact@hisplayer.com</a>
-            </li>
-          </ul>
-        </div>
-      </header>
-    </section>
-    <section class="profile-content">
-      <div class="profile-content-title">
-        <p>Unity SDKs Features Summary</p>
-      </div>
-      <br>
-      <div style="overflow-x:auto;">
-      <table id="table">
-        <tr>
-            <th width="30%">Features</th>
-            <th>Android</th>
-            <th>iOS</th>
-            <th>WebGL</th>
-            <th>Windows</th>
-            <th>MacOS</th>
-        </tr>
-        <tr>
-            <td>Graphics API</td>
-            <td>OpenGLES3</td>
-            <td>Metal</td>
-            <td>WebGL 2.0</td>
-            <td>Direct3D11</td>
-            <td>Metal</td>
-        </tr>
-        <tr>
-            <td>DRM</td>
-            <td>✓ Widevine L3</td>
-            <td>✓ INKA</td>
-            <td>X</td>
-            <td>X</td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <td>Play</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Pause</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Stop</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Seek</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Set Volume</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>ABR</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Resolution/Track Selection</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>X</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Audio Track Selection</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>X</td>
-            <td>X</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Subtitle</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>X</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Change Video Content</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Current Playback Time/Position</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Total Playback Time</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Playback Speed Control</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>X</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Multistream</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>X</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-              <td>VR</td>
-              <td>✓ Oculus</td>
-              <td>✓ VisionPro (Beta)</td>
-              <td>X</td>
-              <td>✓ HoloLens</td>
-              <td>X</td>
-          </tr>
-          <tr>
-              <td>Progressive Download</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-          </tr>
-          <tr>
-              <td>AES-128</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-          </tr>
-          <tr>
-              <td>Ad-insertion</td>
-              <td>X</td>
-              <td>X</td>
-              <td>✓</td>
-              <td>X</td>
-              <td>X</td>
-          </tr>
-    </table>
-    
-    <br><br>
-    
-    <table id ="table">
-        <tr>
-            <th width="30%">Video Delivery Formats</th>
-            <th>Android</th>
-            <th>iOS</th>
-            <th>WebGL</th>
-            <th>Windows</th>
-            <th>MacOS</th>
-        </tr>
-        <tr>
-            <td>HLS</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>DASH</td>
-            <td>✓</td>
-            <td>X</td>
-            <td>✓</td>
-            <td>✓ (only VoD)</td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <td>Local Playback</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>X</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-    </table>
-    
-    <br><br>
-    
-    <table id="table">
-        <tr>
-            <th width="30%">Local File Formats (Audio&amp;Video)</th>
-            <th>Android</th>
-            <th>iOS</th>
-            <th>WebGL</th>
-            <th>Windows</th>
-            <th>MacOS</th>
-        </tr>
-        <tr>
-            <td>MP4</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>X</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>MP3</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>X</td>
-            <td></td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>WAV</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>X</td>
-            <td></td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>OGG</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>X</td>
-            <td></td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>Opus</td>
-            <td></td>
-            <td></td>
-            <td>X</td>
-            <td>✓</td>
-            <td></td>
-        </tr>
-    </table>
-    
-    <br><br>
-    
-    <table id="table">
-        <tr>
-            <th width="30%">Video Codecs</th>
-            <th>Android</th>
-            <th>iOS</th>
-            <th>WebGL</th>
-            <th>Windows</th>
-            <th>MacOS</th>
-        </tr>
-        <tr>
-            <td>H.264 (AVC)</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>H.265 (HEVC)</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓ *</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>MPEG-4</td>
-            <td>✓</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
-    <p>* <a href="https://apps.microsoft.com/store/detail/hevc-video-extensions/9NMZLZ57R3T7" target="_blank">MS HEVC codec extension</a> is required</p>
-    <br><br>
-    
-    <table id="table">
-        <tr>
-            <th width="30%">Audio Codecs</th>
-            <th>Android</th>
-            <th>iOS</th>
-            <th>WebGL</th>
-            <th>Windows</th>
-            <th>MacOS</th>
-        </tr>
-        <tr>
-            <td>AAC</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>MP3</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td></td>
-            <td></td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>ALAC</td>
-            <td>X</td>
-            <td>✓</td>
-            <td>X</td>
-            <td>X</td>
-            <td>✓</td>
-        </tr>
-    </table>
-    <br><br>
-
-    <table id="table">
-        <tr>
-            <th width="30%">Subtitle Formats</th>
-            <th>Android</th>
-            <th>iOS</th>
-            <th>WebGL</th>
-            <th>Windows</th>
-            <th>MacOS</th>
-        </tr>
-        <tr>
-            <td>CEA-608</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>X</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>WebVTT</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>X</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-    </table>
-    <br><br>
-
-    <table id="table">
-        <tr>
-            <th width="30%">Unity Versions</th>
-            <th>Android</th>
-            <th>iOS</th>
-            <th>WebGL</th>
-            <th>Windows</th>
-            <th>MacOS</th>
-        </tr>
-        <tr>
-            <td>2020</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>2021</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>2022</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-        <tr>
-            <td>2023</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-            <td>✓</td>
-        </tr>
-    </table>
-    <br><br>
-    </div>
-  </section>
-</div>
+  <div id="app">Please wait ... </div>
+  <script>
+    window.$docsify = {
+      basePath: 'https://hisplayer.github.io/UnitySamples/',
+      homepage: '/introduction.md',
+      loadSidebar: 'sidebar.md',      
+      themeColor: '#2596be',
+      name: '',
+      repo: '',
+      noEmoji: true,
+      search:'auto',
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Type to search',
+        noData: 'No Results!',
+        depth: 6,
+        namespace: 'hisplayer-samples',
+      },
+      mergeNavbar: true,      
+      maxLevel: 3,
+      subMaxLevel: 3,
+      auto2top: true,
+      hideOtherSidebarContent: true, 
+      themeable : { 
+				readyTransition : true, 
+				responsiveTables: true 
+      }
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-themeable"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-java.js"></script>  
+  <script src="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-<footer class="footer">
-    <nav class="footer-navigation">
-      <a href="https://hisplayer.com/">
-        <img class="icon-hisplayer-footer" src="./assets/favicon.ico" alt="HISPlayer">
-      </a>
-      <ul class="footer-navigation-list">
-        <li class="footer-navigation-item">
-          <a href="https://hisplayer.com/">HISPlayer</a>
-        </li>
-      </ul>
-      <p class="copyright">Copyright © 2023 HISPlayer. All rights reserved.</p>
-    </nav>
-  </footer>
 </html>
