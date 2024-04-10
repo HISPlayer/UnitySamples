@@ -4,7 +4,7 @@ In this page you can find the list of the official _HISPlayer Samples_. The samp
 
 <br>
 
-## <ins>HISPlayer Sample</ins>
+## HISPlayer Sample
 
 Please, refer to [Import HISPlayer Sample](/hisplayer-sample.md)
 
@@ -19,7 +19,7 @@ Please, refer to [Import HISPlayer Sample](/hisplayer-sample.md)
 ### Minimum Unity Version
   * 2020.3
 
-## <ins> HISPlayer MetaXR 360 Sample</ins>
+## HISPlayer MetaXR 360 Sample
 
 Please, refer to [Import HISPlayer MetaXR 360 Sample](/hisplayer-metaxr-360-sample.md)
 
@@ -32,7 +32,7 @@ Please, refer to [Import HISPlayer MetaXR 360 Sample](/hisplayer-metaxr-360-samp
 ### Minimum Unity Version
   * 2021.3.26f1
 
-## <ins>HISPlayer Oculus 360 Sample</ins>
+## HISPlayer Oculus 360 Sample
 
 Please, refer to [Import HISPlayer Oculus 360 Sample](/hisplayer-oculus-360-sample.md)
 
@@ -45,7 +45,7 @@ Please, refer to [Import HISPlayer Oculus 360 Sample](/hisplayer-oculus-360-samp
 ### Minimum Unity Version
   * 2021.3
 
-## <ins>HISPlayer Android 360 Sample</ins>
+## HISPlayer Android 360 Sample
 
 Please, refer to [Import HISPlayer Android 360 Sample](/hisplayer-android-360-sample.md)
 
@@ -55,7 +55,7 @@ Please, refer to [Import HISPlayer Android 360 Sample](/hisplayer-android-360-sa
 ### Minimum Unity Version
   * 2020.3
 
-## <ins>HISPlayer visionOS Sample Beta</ins>
+## HISPlayer visionOS Sample Beta
 
 Please, refer to [Import HISPlayer visionOS Sample Beta](/hisplayer-visionos-sample.md)
 
