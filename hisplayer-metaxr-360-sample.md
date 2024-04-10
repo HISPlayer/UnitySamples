@@ -1,4 +1,4 @@
-# Import HISPlayer MetaXR 360 Sample
+# HISPlayer MetaXR 360 Sample
 
 ## Integrate Meta XR All-in-One SDK
 
