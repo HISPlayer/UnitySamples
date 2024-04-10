@@ -64,3 +64,6 @@ Please, refer to [Import HISPlayer visionOS Sample Beta](/hisplayer-visionos-sam
     
 ### Unity Version
   * 2022.3
+
+### Required HISPlayer SDK version
+  * HISPlayer SDK v3.3.3-beta
