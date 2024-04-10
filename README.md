@@ -1,8 +1,6 @@
 # HISPlayer Unity Samples
 
-HISPlayer is the most advanced Unity video streaming player for Android, supporting local, VOD and live contents. It enables premium DASH and HLS video streaming inside your Unity games and metaverses on Android. We include the support of DRM protection for premium contents and advanced features such as multistream or automatic bitrate adaptation to secure the best video quality.
-
-Here you can find the list of the official _HISPlayer Samples_. The samples are intended to show a comprehensive scene using the _HISPlayer SDK_ to help demostrate features such as play, pause, seek, etc.
+In this page you can find the list of the official HISPlayer Samples. The samples are intended to show a comprehensive scene using the HISPlayer SDK to help demonstrate features such as play, pause, seek, etc.
 
 # [The full Documentation](https://hisplayer.github.io/UnitySamples/)
 
