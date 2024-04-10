@@ -3,4 +3,5 @@
 - [Import HISPlayer MetaXR 360 Sample](/hisplayer-metaxr-360-sample.md)
 - [Import HISPlayer Oculus 360 Sample](/hisplayer-oculus-360-sample.md)
 - [Import HISPlayer Android 360 Sample](/hisplayer-android-360-sample.md)
+- [Import HISPlayer visionOS Sample](/hisplayer-visionos-sample.md)
   
