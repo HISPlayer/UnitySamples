@@ -1,4 +1,4 @@
-# HISPlayer Oculus 360 Sample
+# Import HISPlayer Oculus 360 Sample
 
 ## Oculus Integration
 
