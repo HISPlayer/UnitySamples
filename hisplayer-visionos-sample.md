@@ -1,4 +1,6 @@
-# Import HISPlayer visionOS Sample Beta
+# HISPlayer visionOS Sample Beta
+
+## Import sample package
 
 Please, download the sample here -> [**HISPlayer visionOS Sample Beta**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Sample_3.3.3_Beta.unitypackage) 
 (no need to download it if you have received it in the email).
@@ -10,6 +12,8 @@ Importing the package is the same as importing other normal packages in Unity. S
 <p align="center">
   <img width=50% src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/9cddf00f-9abc-4075-9bc2-ba278b92a7f9">
 </p>
+
+## HISPlayer Sample configuration
 
 - Complete the configuration for visionOS ->  [**Configure Unity for visionOS**](https://hisplayer.github.io/UnityVisionOS-SDK/#/setup-guide?id=_12-configure-unity-for-visionos)
   - To deploy for VisionPro device, please refer to the following configuration : [**Deploy for VisionPro Device**](https://hisplayer.github.io/UnityVisionOS-SDK/#/setup-guide?id=deploy-for-apple-vision-pro-device)
