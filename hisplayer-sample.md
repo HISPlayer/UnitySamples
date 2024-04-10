@@ -1,6 +1,8 @@
-# Import HISPlayer Sample
+# HISPlayer Sample
 
-## <ins> HISPlayer SDK versions above 3.4.0</ins> 
+## Import sample package
+
+### <ins> HISPlayer SDK versions above 3.4.0</ins> 
 
 Please, keep in mind the _HISPlayer Sample_ is included in the _HISPlayer SDK Unity Package_.
 
@@ -19,7 +21,7 @@ In the case you just need to include the _HISPlayer Sample_, please disable **co
   <img width=60% src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/51acd7c5-6515-42aa-a6a7-e0480f7b3691">
 </p>
 
-## <ins> HISPlayer SDK versions below 3.4.0</ins>
+### <ins> HISPlayer SDK versions below 3.4.0</ins>
 
 Please, download the sample here -> [**HISPlayer Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Sample.unitypackage) 
 (no need to download it if you have received it in the email).
