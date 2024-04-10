@@ -28,7 +28,7 @@ Please, refer to [HISPlayer MetaXR 360 Sample](/hisplayer-metaxr-360-sample.md)
 
 ### Meta Quest Package
   * [Meta XR All-in-One SDK](https://developer.oculus.com/downloads/package/meta-xr-sdk-all-in-one-upm/)
-    
+
 ### Minimum Unity Version
   * 2021.3.26f1
 
@@ -38,10 +38,10 @@ Please, refer to [HISPlayer Oculus 360 Sample](/hisplayer-oculus-360-sample.md)
 
 ### Supported Platforms
   * Android
-    
+
 ### Meta Quest Package
   * [OculusIntegration.unitypackage](https://developer.oculus.com/downloads/package/unity-integration/)
-    
+
 ### Minimum Unity Version
   * 2021.3
 
@@ -51,7 +51,7 @@ Please, refer to [HISPlayer Android 360 Sample](/hisplayer-android-360-sample.md
 
 ### Supported Platforms
   * Android
-    
+
 ### Minimum Unity Version
   * 2020.3
 
@@ -61,7 +61,7 @@ Please, refer to [HISPlayer visionOS Sample Beta](/hisplayer-visionos-sample.md)
 
 ### Supported Platforms
   * visionOS
-    
+
 ### Unity Version
   * 2022.3
 
