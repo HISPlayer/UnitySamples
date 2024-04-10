@@ -4,11 +4,11 @@ In this page you can find the list of the official _HISPlayer Samples_. The samp
 
 <br>
 
-### <ins>HISPlayer Sample</ins>
+## <ins>HISPlayer Sample</ins>
 
 Please, refer to [Import HISPlayer Sample](/hisplayer-sample.md)
 
-#### Supported Platforms
+### Supported Platforms
   * Android
   * iOS
   * Windows
@@ -16,41 +16,41 @@ Please, refer to [Import HISPlayer Sample](/hisplayer-sample.md)
   * macOS
   * WebGL
 
-#### Minimum Unity Version
+### Minimum Unity Version
   * 2020.3
 
-### <ins> HISPlayer MetaXR 360 Sample</ins>
+## <ins> HISPlayer MetaXR 360 Sample</ins>
 
 Please, refer to [Import HISPlayer MetaXR 360 Sample](/hisplayer-metaxr-360-sample.md)
 
-#### Supported Platforms
+### Supported Platforms
   * Android
 
-#### Meta Quest Package
+### Meta Quest Package
   * [Meta XR All-in-One SDK](https://developer.oculus.com/downloads/package/meta-xr-sdk-all-in-one-upm/)
     
-#### Minimum Unity Version
+### Minimum Unity Version
   * 2021.3.26f1
 
-### <ins>HISPlayer Oculus 360 Sample</ins>
+## <ins>HISPlayer Oculus 360 Sample</ins>
 
 Please, refer to [Import HISPlayer Oculus 360 Sample](/hisplayer-oculus-360-sample.md)
 
-#### Supported Platforms
+### Supported Platforms
   * Android
     
-#### Meta Quest Package
+### Meta Quest Package
   * [OculusIntegration.unitypackage](https://developer.oculus.com/downloads/package/unity-integration/)
     
-#### Minimum Unity Version
+### Minimum Unity Version
   * 2021.3
 
-### <ins>HISPlayer Android 360 Sample</ins>
+## <ins>HISPlayer Android 360 Sample</ins>
 
 Please, refer to [Import HISPlayer Android 360 Sample](/hisplayer-android-360-sample.md)
 
-#### Supported Platforms
+### Supported Platforms
   * Android
     
-#### Minimum Unity Version
+### Minimum Unity Version
   * 2020.3
