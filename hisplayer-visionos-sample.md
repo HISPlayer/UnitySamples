@@ -70,7 +70,7 @@ You can add/remove streams by pressing the buttons **+/-** in the **Multi Stream
   <img width=70% alt="render-mode" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/e65f23af-cf95-4858-b654-d0199feecd71">
 </p>
 
-### Change URL
+### Change Default URL
 To change the default video URL using your own URL, please replace the element value with your own URL in the **URL list** of the stream you want to modify.
 
 <p align="center">
@@ -80,8 +80,11 @@ To change the default video URL using your own URL, please replace the element v
 ### Add/Remove URLs
 
 You can add/remove URLs by selecting one element from the **Multi Stream Properties list** and then pressing the buttons **+/-** in the **Url list**. 
-For changing the content of the videos, please refer to **[ChangeVideoContent](https://hisplayer.github.io/UnityVisionOS-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)** API.
 
 <p align="center">
   <img width=70% alt="add-url" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/b65bf99f-202b-436e-a9c3-f1a6b9b97eaa">
 </p>
+
+### Change video content at runtime
+
+For changing the content of the videos, please refer to **[ChangeVideoContent](https://hisplayer.github.io/UnityVisionOS-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)** API.
