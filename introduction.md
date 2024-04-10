@@ -54,3 +54,13 @@ Please, refer to [Import HISPlayer Android 360 Sample](/hisplayer-android-360-sa
     
 ### Minimum Unity Version
   * 2020.3
+
+## <ins>HISPlayer visionOS Sample Beta</ins>
+
+Please, refer to [Import HISPlayer visionOS Sample Beta](/hisplayer-visionos-sample.md)
+
+### Supported Platforms
+  * visionOS
+    
+### Unity Version
+  * 2022.3
