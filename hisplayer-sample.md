@@ -4,7 +4,7 @@
 
 ### HISPlayer SDK versions 3.4.0 and above
 
-Please, keep in mind the _HISPlayer Sample_ is included in the _HISPlayer SDK Unity Package_.
+The _HISPlayer Sample_ is included in the _HISPlayer SDK Unity Package_.
 
 Importing the package is the same as importing other normal packages in Unity. 
 Select the package of _HISPlayer SDK_ and import it.
