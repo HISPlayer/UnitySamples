@@ -2,7 +2,7 @@
 
 In this page you can find the list of the official HISPlayer Samples. The samples are intended to show a comprehensive scene using the HISPlayer SDK to help demonstrate features such as play, pause, seek, etc.
 
-# [The full Documentation](https://hisplayer.github.io/UnitySamples/)
+# [The HISPlayer Samples](https://hisplayer.github.io/UnitySamples/)
 
 ## Try our Unity Engine Video Player SDK Now!
 
