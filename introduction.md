@@ -6,7 +6,7 @@ In this page you can find the list of the official _HISPlayer Samples_. The samp
 
 ## HISPlayer Sample
 
-Please, refer to [Import HISPlayer Sample](/hisplayer-sample.md)
+Please, refer to [HISPlayer Sample](/hisplayer-sample.md)
 
 ### Supported Platforms
   * Android
@@ -21,7 +21,7 @@ Please, refer to [Import HISPlayer Sample](/hisplayer-sample.md)
 
 ## HISPlayer MetaXR 360 Sample
 
-Please, refer to [Import HISPlayer MetaXR 360 Sample](/hisplayer-metaxr-360-sample.md)
+Please, refer to [HISPlayer MetaXR 360 Sample](/hisplayer-metaxr-360-sample.md)
 
 ### Supported Platforms
   * Android
@@ -34,7 +34,7 @@ Please, refer to [Import HISPlayer MetaXR 360 Sample](/hisplayer-metaxr-360-samp
 
 ## HISPlayer Oculus 360 Sample
 
-Please, refer to [Import HISPlayer Oculus 360 Sample](/hisplayer-oculus-360-sample.md)
+Please, refer to [HISPlayer Oculus 360 Sample](/hisplayer-oculus-360-sample.md)
 
 ### Supported Platforms
   * Android
@@ -47,7 +47,7 @@ Please, refer to [Import HISPlayer Oculus 360 Sample](/hisplayer-oculus-360-samp
 
 ## HISPlayer Android 360 Sample
 
-Please, refer to [Import HISPlayer Android 360 Sample](/hisplayer-android-360-sample.md)
+Please, refer to [HISPlayer Android 360 Sample](/hisplayer-android-360-sample.md)
 
 ### Supported Platforms
   * Android
@@ -57,7 +57,7 @@ Please, refer to [Import HISPlayer Android 360 Sample](/hisplayer-android-360-sa
 
 ## HISPlayer visionOS Sample Beta
 
-Please, refer to [Import HISPlayer visionOS Sample Beta](/hisplayer-visionos-sample.md)
+Please, refer to [HISPlayer visionOS Sample Beta](/hisplayer-visionos-sample.md)
 
 ### Supported Platforms
   * visionOS
