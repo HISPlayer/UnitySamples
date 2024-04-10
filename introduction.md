@@ -44,3 +44,13 @@ Please, refer to [Import HISPlayer Oculus 360 Sample](/hisplayer-oculus-360-samp
     
 #### Minimum Unity Version
   * 2021.3
+
+### <ins>HISPlayer Android 360 Sample</ins>
+
+Please, refer to [Import HISPlayer Android 360 Sample](/hisplayer-android-360-sample.md)
+
+#### Supported Platforms
+  * Android
+    
+#### Minimum Unity Version
+  * 2020.3
