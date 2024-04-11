@@ -12,7 +12,7 @@ Select the package of _HISPlayer SDK_ and import it.
 **Assets > Import Package > Custom Package > HISPlayerSDK unity package**
 
 <p align="center">
-<img width=70% src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/c8ff9e55-524e-48f1-a323-95b00aa5c6c7">
+<img width=80% src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/c8ff9e55-524e-48f1-a323-95b00aa5c6c7">
 </p>
 
 In the case you just need to include the _HISPlayer Sample_, please disable **com.unity.hisplayersdk** from the _Import Unity Package_ window.
