@@ -104,5 +104,5 @@ If you use Linear Color Space in the Unity Project Settings > Player Settings > 
 
 * Make sure you have the following setting of the material:
 <p align="center">
-  <img width="40%" alt="image" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/32887298/5ba12394-cc6a-4846-b7fc-4a682669dd66">
+  <img width="60%" alt="image" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/32887298/5ba12394-cc6a-4846-b7fc-4a682669dd66">
 </p>
