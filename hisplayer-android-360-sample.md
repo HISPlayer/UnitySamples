@@ -15,7 +15,7 @@ Importing the package is the same as importing other normal packages in Unity. S
 - **Assets > Import Package > Custom Package > HISPlayer_Android_360_Sample.unitypackage**
 
 <p align="center">
-<img src="./assets/import-package.png">
+<img src="https://github.com/HISPlayer/UnitySamples/assets/32887298/d4ac1a32-a4d1-4a71-98cc-da7c3d394332">
 </p>
 
 - Complete the configuration for Android ->  [**Configure Unity for Android**](./setup-guide.md#12-configure-unity-for-android)
