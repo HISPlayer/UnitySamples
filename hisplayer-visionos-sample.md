@@ -1,5 +1,7 @@
 # HISPlayer visionOS Sample
 
+## Import sample package
+
 Please, download the sample here -> [**HISPlayer visionOS Sample**](https://downloads.hisplayer.com/Unity/visionOS/HISPlayer_visionOS_Sample.unitypackage) 
 (no need to download it if you have received it in the email).
 
@@ -10,6 +12,8 @@ Importing the package is the same as importing other normal packages in Unity. S
 <p align="center">
   <img width=50% src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/9cddf00f-9abc-4075-9bc2-ba278b92a7f9">
 </p>
+
+## HISPlayer Sample configuration
 
 - Complete the configuration for visionOS ->  [**Configure Unity for visionOS**](https://hisplayer.github.io/UnityVisionOS-SDK/#/setup-guide?id=_12-configure-unity-for-visionos)
   - To deploy for VisionPro device, please refer to the following configuration : [**Deploy for VisionPro Device**](https://hisplayer.github.io/UnityVisionOS-SDK/#/setup-guide?id=deploy-for-apple-vision-pro-device)
@@ -75,7 +79,7 @@ You can add/remove streams by pressing the buttons **+/-** in the **Multi Stream
   <img width=70% alt="render-mode" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/e65f23af-cf95-4858-b654-d0199feecd71">
 </p>
 
-### Change URL
+### Change Default URL
 To change the default video URL using your own URL, please replace the element value with your own URL in the **URL list** of the stream you want to modify.
 
 <p align="center">
@@ -85,9 +89,11 @@ To change the default video URL using your own URL, please replace the element v
 ### Add/Remove URLs
 
 You can add/remove URLs by selecting one element from the **Multi Stream Properties list** and then pressing the buttons **+/-** in the **Url list**. 
-For changing the content of the videos, please refer to **[ChangeVideoContent](https://hisplayer.github.io/UnityVisionOS-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)** API.
 
 <p align="center">
   <img width=70% alt="add-url" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/b65bf99f-202b-436e-a9c3-f1a6b9b97eaa">
 </p>
 
+### Change video content at runtime
+
+For changing the content of the videos, please refer to **[ChangeVideoContent](https://hisplayer.github.io/UnityVisionOS-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)** API.
