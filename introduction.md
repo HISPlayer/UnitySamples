@@ -55,9 +55,9 @@ Please, refer to [HISPlayer Android 360 Sample](/hisplayer-android-360-sample.md
 ### Minimum Unity Version
   * 2020.3
 
-## HISPlayer visionOS Sample Beta
+## HISPlayer visionOS Sample
 
-Please, refer to [HISPlayer visionOS Sample Beta](/hisplayer-visionos-sample.md)
+Please, refer to [HISPlayer visionOS Sample](/hisplayer-visionos-sample.md)
 
 ### Supported Platforms
   * visionOS
@@ -66,4 +66,4 @@ Please, refer to [HISPlayer visionOS Sample Beta](/hisplayer-visionos-sample.md)
   * 2022.3
 
 ### Required HISPlayer SDK version
-  * HISPlayer SDK v3.3.3-beta
+  * HISPlayer SDK v3.4.2
