@@ -33,7 +33,7 @@ If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide]
 - Open the scene **Assets/HISPlayerSample/Scenes/HISPlayer180VRSample.unity**
 
 <p align="center">
-  <img width=60% alt="image" src="https://github.com/HISPlayer/UnitySamples/assets/47497948/d8b3dba6-0c51-44cf-9394-fd7ae2977bc1">
+  <img width=60% src="https://github.com/HISPlayer/UnitySamples/assets/47497948/296ba96c-2ac0-478e-9eb3-912fa01f0564">
 </p>
 
 - Import TextMesh Pro Essential
@@ -46,8 +46,9 @@ If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide]
 </p>
 
 - Open **File** > **Build Settings** > **Add Open Scenes**. 
+
 <p align="center">
-  <img width=70% alt="macos" src="https://github.com/HISPlayer/UnitySamples/assets/47497948/b4e903c2-2862-4730-a31b-785dd2ce44c1">
+  <img width=70% src="https://github.com/HISPlayer/UnitySamples/assets/47497948/1fa50bd4-48b0-4f16-80d5-8bbc08028f8d">
 </p>
 
 - Review that the scene is correctly configured. Please, open **Player Settings > XR Plug-in Management > Apple visionOS > App Mode** and select:
@@ -70,6 +71,40 @@ using the HISPlayer SDK to help demonstrate features such as play, pause, seek, 
 <p align="center">
   <img width=90% alt="image" src="https://github.com/HISPlayer/UnitySamples/assets/47497948/9de1004b-81cd-4e78-b491-11038d976728">
 </p>
+
+## Add/Remove Streams and URLs
+In order to add/remove streams and URLs, please refer to the component **HISPlayer180VRController** attached to the **HISPlayerController GameObject** in the **Inspector** within the **HISPlayer180VRSample.unity** scene. 
+
+### Add/Remove Streams
+
+You can add/remove streams by pressing the buttons **+/-** in the **Multi Stream Properties list**. Once a new stream is added, please, select the **RenderTexture mode** and the **RenderTexture surface** where you want to display your videos. 
+
+<p align="center">
+  <img width=70% alt="streams" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/f0a1521d-807a-48f5-893e-58135516b37e">
+</p>
+
+<p align="center">
+  <img width=70% alt="render-mode" src="https://github.com/HISPlayer/UnitySamples/assets/47497948/4dd7a4e6-5c46-4b09-9f1e-a76848299657">
+</p>
+
+### Change Default URL
+To change the default video URL using your own URL, please replace the element value with your own URL in the **URL list** of the stream you want to modify.
+
+<p align="center">
+  <img width=60% alt="replace-url" src="https://github.com/HISPlayer/UnitySamples/assets/47497948/230d4396-77ca-44e0-ae0f-7edfe6996b2e">
+</p>
+
+### Add/Remove URLs
+
+You can add/remove URLs by selecting one element from the **Multi Stream Properties list** and then pressing the buttons **+/-** in the **Url list**. 
+
+<p align="center">
+  <img width=70% alt="add-url" src="https://github.com/HISPlayer/UnitySamples/assets/47497948/fa99bc29-0cc2-40c0-b47d-0f520d5b9603">
+</p>
+
+### Change video content at runtime
+
+For changing the content of the videos, please refer to **[ChangeVideoContent](https://hisplayer.github.io/UnityVisionOS-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)** API.
 
 ## HISPlayer 180/360 Resources
 Unity provides ways to configure how you will display your video content on the 180/360 environment. Please, refer to the following
