@@ -1,10 +1,5 @@
 # HISPlayer visionOS 180 VR Sample
 
-## Requirements
-
-#### HISPlayer SDK version
-- Minimal HISPlayer SDK version: 3.4.2
-  
 ## Verify the visionOS Unity package
 
 Please, verify you have installed the **com.unity.xr.visionos** package. Open the window **Window > Package Manager** located in the upper side of the screen and look for the package. In the case you haven't installed it yet, please, refer to [Install the visionOS Unity package](https://hisplayer.github.io/UnityVisionOS-SDK/#/setup-guide?id=install-the-visionos-unity-package)
