@@ -1,4 +1,4 @@
-# HISPlayer visionOS 180 VR Sample
+# HISPlayer visionOS 180 Video VR Sample
 
 ## Verify the visionOS Unity package
 
@@ -117,10 +117,9 @@ We provide the render texture, the material and the shader to configure the opti
   * **Packages/HISPlayer SDK/HISPlayer/Resources/Materials/HISPlayer180Material.mat** to check the 180 settings.
   * **Packages/HISPlayer SDK/HISPlayer/Resources/RenderTextures/HISPlayer180RenderTexture.rendertexture**.
 * 360 resources
-  * **Packages/HISPlayer SDK/HISPlayer/Resources/Materials/HISPlayer180Material.material** to check the 180 settings.
-  * **Packages/HISPlayer SDK/HISPlayer/Resources/RenderTextures/HISPlayer180RenderTexture.rendertexture**.
+  * **Packages/HISPlayer SDK/HISPlayer/Resources/Materials/HISPlayer360Material.material** to check the 180 settings.
+  * **Packages/HISPlayer SDK/HISPlayer/Resources/RenderTextures/HISPlayer360RenderTexture.rendertexture**.
 
-In the case you want to use to 360 videos, please refer to the 360 resources listed above. 
 In our sample we're using the following options for 180 videos: 
 
 * **HISPlayer180Material.mat**
@@ -134,3 +133,32 @@ In our sample we're using the following options for 180 videos:
 <img width=70% alt="image" src="https://github.com/HISPlayer/UnitySamples/assets/47497948/ea2aefc6-cdf5-440b-ac1f-24d206456b89">
 </p>
 
+### How to use 360 videos
+In the case you want to use to 360 videos, please refer to the 360 resources listed above. 
+
+* On the upper side of the Unity screen, open **Window > Rendering Lighting**, select the **Environment** option and replace the current attached material of the **Skybox Material** by the **HISPlayer360Material.mat**. 
+
+<p align="center">
+<img width=70% alt="image" src="https://github.com/HISPlayer/UnitySamples/assets/47497948/773885eb-3fb0-4450-8121-c8ef74b4eb3e">
+</p>
+
+*  Select the **HISPlayerController** GameObject, go to the **Inspector** and replace the current attached RenderTexture on the **HISPlayer 180 VR Controller > Multi Stream Properties** by the **HISPlayer360RenderTexture.rendertexture**.
+* Replace the default URL by the 360 video you want to display
+
+<p align="center">
+<img width=70% alt="image" src="https://github.com/HISPlayer/UnitySamples/assets/47497948/2e82b66f-ca0c-4a8b-a004-dd2bd1260b04">
+</p>
+
+* **HISPlayer360Material default settings**:
+  * **Rotation**: 90 
+  * **Flip Vertically**: True
+  * **Mapping**: Latitude Longitude Layout
+  * **Image Type**: 360 Degrees
+  * **3D Layout**: Over Under
+    * Refer to [Unity Video Panoramic Tutorial](https://docs.unity3d.com/Manual/VideoPanoramic.html)
+
+<p align="center">
+  <img width=70% alt="image" src="https://github.com/HISPlayer/UnitySamples/assets/47497948/992ae994-1212-4084-8c06-727d8b9f829e">
+</p>
+
+    
