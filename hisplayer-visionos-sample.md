@@ -54,7 +54,7 @@ To check how to set up the SDK and API usage, please refer to:
   - MR Mode: **Assets/HISPlayerSample/Scripts/HISPlayerMRController.cs** and **HISPlayerController GameObject** in the Editor.
 
 ## UI Demo
-The UI components in the HISPlayerSampleVR.unity are fully modifiable and each stream has its own UI. The sample is intended to show a comprehensive scene using the HISPlayer SDK to help demonstrate features such as play, pause, seek, etc using the multi stream feature. 
+The UI components in the HISPlayerSampleVR.unity are fully modifiable. The sample is intended to show a comprehensive scene using the HISPlayer SDK to help demonstrate features such as play, pause, seek, etc. 
 
 <p align="center">
   <img width=55% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/7b426d46-ab9f-4615-9159-74807ce98056">
