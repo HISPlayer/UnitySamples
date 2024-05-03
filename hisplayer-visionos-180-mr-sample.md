@@ -96,8 +96,8 @@ For changing the content of the videos, please refer to **[ChangeVideoContent](h
 
 ## HISPlayer 180/360 Resources
 Using the MR mode, the Panoramic shaders like or the Skybox effects are not supported. 
-We provide into the sample the Blender model, the material, the render texture and the shader graph
-to render the 180 video on a semisphere, refer to:
+In the sample we provide the Blender model, the material, the render texture and the shader graph
+to render the 180 video on a semisphere. Please refer to:
   
 * **Assets/HISPlayer/Resources/visionOS-MR/180MRVideoSurface.blend**
   * In the case you want to check or modify this file, you will need to download [Blender](https://www.blender.org/).
