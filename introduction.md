@@ -80,3 +80,16 @@ Please, refer to [HISPlayer visionOS 180 Video VR Sample](/hisplayer-visionos-18
 
 ### Required HISPlayer SDK version
   * HISPlayer SDK v3.4.2
+
+## HISPlayer visionOS 180 Video MR Sample
+
+Please, refer to [HISPlayer visionOS 180 Video MR Sample](/hisplayer-visionos-180-mr-sample.md)
+
+### Supported Platforms
+  * visionOS
+
+### Unity Version
+  * 2022.3
+
+### Required HISPlayer SDK version
+  * HISPlayer SDK v3.4.2
