@@ -132,7 +132,7 @@ The following HISPlayer APIs are used in this function:
 
 ## Sample Update
 
-We use the **Unity Update()** function to monitorize the cache space. When a change is detected, the information will be logged. 
+We use the **Unity Update()** function to monitor the cache space. When a change is detected, the information will be logged. 
 In the case, the remaining space is less than 10%, the cache will be flushed and the callback EventCacheFlushed will be triggered.
 
 The following HISPlayer APIs are used in this function:
