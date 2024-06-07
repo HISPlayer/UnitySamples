@@ -34,7 +34,7 @@ The sample is intended to show a comprehensive scene using the HISPlayer SDK to 
    * EventCacheFlushed
 
 The sample uses 2 streams to swap the video content between them. There are 2 buttons (Previous Stream and Next Stream) to change the current video content. While one stream is 
-displaying the video, the other one is loading the next video in the list t be ready to play as fast as possible.
+displaying the video, the other one is loading the next video in the list to be ready to play as fast as possible.
 
 ## Initialize Cache Instance
 
