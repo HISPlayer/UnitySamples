@@ -22,7 +22,7 @@ Importing the package is the same as importing other normal packages in Unity. S
 </p>
 
 ## Import HISPlayer SDK
-If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](./setup-guide.md).
+If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](https://hisplayer.github.io/UnityVisionOS-SDK/#/setup-guide).
 
 ## HISPlayer Sample configuration
 
