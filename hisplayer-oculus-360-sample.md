@@ -40,7 +40,7 @@ In XR Plug-in Management, please make sure that you have the **Oculus** option c
 <img width="1040" alt="image" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/beb2689c-d884-495c-9fa4-07b70014dfed">
 
 ## Import HISPlayer SDK
-If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](./setup-guide.md).
+If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](https://hisplayer.github.io/UnityAndroid-SDK/#/./setup-guide?id=quickstart-guide).
 
 ## Import HISPlayer Oculus Sample
 Please, download the sample here: [**HISPlayer Oculus 360 Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Oculus_360_Sample.unitypackage) (no need to download it if you have received it in the email). The sample is intended for playing 360 video. 
