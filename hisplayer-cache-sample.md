@@ -6,7 +6,7 @@
 - Minimum SDK: 3.4.3
 
 ## Import HISPlayer SDK
-If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](./setup-guide.md).
+If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](https://hisplayer.github.io/UnityAndroid-SDK/#/./setup-guide?id=quickstart-guide).
 
 ## Import HISPlayer Cache Sample
 Please, download the sample here: [**HISPlayer Cache Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Cache_Sample.unitypackage) (no need to download it if you have received it in the email). 
