@@ -74,11 +74,11 @@ The following HISPlayer APIs are used in this function:
             Screen.orientation = ScreenOrientation.Portrait;
 
         SetUpPlayer();
-        StartCoroutine(AddStreamsFromScript());
+        StartCoroutine(AddCachedStreamsFromScript());
     }
 ```
 
-## AddStreamsFromScript
+## AddCachedStreamsFromScript
 
 We provide an auxiliar function to add streams from the script instead of the Editor. This way, the streams can load the videos from the cache.
 It is a Unity Coroutine that waits until the first video in the list is cached. 
@@ -95,7 +95,7 @@ The following HISPlayer APIs are used in this function:
     /// Adds new streams using AddStream API and adds the respective video
     /// content using AddVideoContent API
     /// </summary>
-    IEnumerator AddStreamsFromScript()
+    IEnumerator AddCachedStreamsFromScript()
     {
         yield return new WaitUntil(() => IsURLCached(videoSamples[0]));
 
@@ -125,7 +125,7 @@ The following HISPlayer APIs are used in this function:
 
             // 4.2 Disable the rendering of the other streams
             streamsScreens[i].gameObject.SetActive(false);
-            StartCoroutine(SeekToZeroWhenReady(i));
+            StartCoroutine(PauseWhenReady(i));
         }
     }
 ```
