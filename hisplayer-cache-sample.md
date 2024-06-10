@@ -9,7 +9,7 @@
 If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](https://hisplayer.github.io/UnityAndroid-SDK/#/./setup-guide?id=quickstart-guide).
 
 ## Import HISPlayer Cache Sample
-Please, download the sample here: [**HISPlayer Cache Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Cache_Sample.unitypackage) (no need to download it if you have received it in the email). 
+Please, download the sample here: [**HISPlayer Cache Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayerCacheSample.unitypackage) (no need to download it if you have received it in the email). 
 
 Before using the sample, please make sure you have followed the above requirements to set-up your Unity project for Oculus and HISPlayer SDK. To use the sample, please follow these steps :
   - Import HISPlayer SDK
