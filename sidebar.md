@@ -4,5 +4,7 @@
 - [HISPlayer Oculus 360 Sample](/hisplayer-oculus-360-sample.md)
 - [HISPlayer Android 360 Sample](/hisplayer-android-360-sample.md)
 - [HISPlayer visionOS Sample](/hisplayer-visionos-sample.md)
+- [HISPlayer visionOS 180 Video MR Sample](/hisplayer-visionos-180-mr-sample.md)
+- [HISPlayer visionOS 180 Video VR Sample](/hisplayer-visionos-180-vr-sample.md)
 - [HISPlayer Cache Sample](/hisplayer-cache-sample.md)
   
