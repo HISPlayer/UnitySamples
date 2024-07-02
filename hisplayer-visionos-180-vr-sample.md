@@ -116,9 +116,12 @@ We provide the render texture, the material and the shader to configure the opti
 * 180 resources
   * **Packages/HISPlayer SDK/HISPlayer/Resources/Materials/HISPlayer180Material.mat** to check the 180 settings.
   * **Packages/HISPlayer SDK/HISPlayer/Resources/RenderTextures/HISPlayer180RenderTexture.rendertexture**.
+  * **Packages/HISPlayer SDK/HISPlayer/Resources/Materials/HISPlayer180Material.mat**.
+
 * 360 resources
   * **Packages/HISPlayer SDK/HISPlayer/Resources/Materials/HISPlayer360Material.material** to check the 180 settings.
   * **Packages/HISPlayer SDK/HISPlayer/Resources/RenderTextures/HISPlayer360RenderTexture.rendertexture**.
+  * **Packages/HISPlayer SDK/HISPlayer/Resources/Materials/HISPlayer360Material.mat**.
 
 In our sample we're using the following options for 180 videos: 
 
