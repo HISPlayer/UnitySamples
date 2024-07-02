@@ -107,5 +107,3 @@ Please refer to:
 * **Assets/HISPlayer/Resources/visionOS-MR/HISPlayerVisionOSMRMaterial.mat**
 * **Assets/HISPlayer/Resources/visionOS-MR/HISPlayerVisionOSMRRenderTexture.rendertexture**
 * **Assets/HISPlayer/Resources/visionOS-MR/HISPlayerVisionOSMRShader.shadergraph**
-* **Packages/HISPlayer SDK/HISPlayer/Resources/Materials/HISPlayer180Material.mat**
-* **Packages/HISPlayer SDK/HISPlayer/Resources/Materials/HISPlayer360Material.mat**
