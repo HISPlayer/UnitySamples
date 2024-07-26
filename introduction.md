@@ -94,15 +94,15 @@ Please, refer to [HISPlayer visionOS 180 Video MR Sample](/hisplayer-visionos-18
 ### Required HISPlayer SDK version
   * HISPlayer SDK v3.4.2
 
-## HISPlayer Cache Sample
+## HISPlayer Add Stream Sample
 
-Please, refer to [HISPlayer Cache Sample](/hisplayer-cache-sample.md)
+Please, refer to [HISPlayer Add Stream Sample](/hisplayer-add-stream-sample.md)
 
 ### Supported Platforms
   * Android
+  * iOS
+  * Windows (min SDK v3.4.0)
+  * UWP (min SDK v3.4.0)
 
 ### Minimum Unity Version
   * 2020.3
-
-### Required HISPlayer SDK version
-  * HISPlayer SDK v3.4.3 and above
