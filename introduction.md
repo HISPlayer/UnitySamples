@@ -101,10 +101,8 @@ Please, refer to [HISPlayer Add Stream Sample](/hisplayer-add-stream-sample.md)
 ### Supported Platforms
   * Android
   * iOS
-  * Windows
-  * UWP
-  * macOS
-  * WebGL
+  * Windows (min SDK v3.4.0)
+  * UWP (min SDK v3.4.0)
 
 ### Minimum Unity Version
   * 2020.3
