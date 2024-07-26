@@ -87,6 +87,3 @@ public void OnAddStream()
 <p align="center">
   <img width=90% alt="image" src="https://github.com/user-attachments/assets/ff67a32c-2612-40fb-8e34-65fdd27403af">
 </p>
-
-## Add Streams and URLs using the Editor
-Please, refer to the [HISPlayer Sample](/hisplayer-sample.md) to know more about how to initialize the streams using the Editor
