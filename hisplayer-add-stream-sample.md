@@ -88,44 +88,5 @@ public void OnAddStream()
   <img width=90% alt="image" src="https://github.com/user-attachments/assets/ff67a32c-2612-40fb-8e34-65fdd27403af">
 </p>
 
-## Add/Remove Streams and URLs using the Editor
-In order to add/remove streams and URLs using the Editor, please refer to the component **HISPlayerAddStreamController** attached to the **HISPlayerController GameObject** in the **Inspector**. 
-
-Please, keep in mind these actions must be done before playing the scene. 
-
-### Add/Remove Streams
-
-You can add/remove streams by pressing the buttons **+/-** in the **Multi Stream Properties list**. Once a new stream is added, please, select the render mode and the surface where you want to display your videos (Material, Raw Image or RenderTexture). 
-
-<p align="center">
-  <img width=70% alt="streams" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/f0a1521d-807a-48f5-893e-58135516b37e">
-</p>
-
-<p align="center">
-  <img width=70% alt="render-mode" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/e65f23af-cf95-4858-b654-d0199feecd71">
-</p>
-
-### Change Default URL
-To change the default video URL using your own URL, please replace the element value with your own URL in the **URL list** of the stream you want to modify.
-
-<p align="center">
-  <img width=60% alt="replace-url" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/5b876db4-f3c9-4c98-84df-f23737070f50">
-</p>
-
-### Add/Remove URLs
-
-You can add/remove URLs by selecting one element from the **Multi Stream Properties list** and then pressing the buttons **+/-** in the **Url list**. 
-
-<p align="center">
-  <img width=70% alt="add-url" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/b65bf99f-202b-436e-a9c3-f1a6b9b97eaa">
-</p>
-
-### Change video content at runtime
-For changing the content of the videos at runtime, please refer to the **ChangeVideoContent** API: 
-
-- **[Android ChangeVideoContent API](https://hisplayer.github.io/UnityAndroid-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)**.
-- **[iOS ChangeVideoContent API](https://hisplayer.github.io/UnityiOS-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)**.
-- **[WebGL ChangeVideoContent API](https://hisplayer.github.io/UnityWebGL-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex-int-resumeposition-0-adsproperties-ads-null)**.
-- **[Windows/UWP ChangeVideoContent API](https://hisplayer.github.io/UnityWindows-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)**.
-- **[macOS ChangeVideoContent API](https://hisplayer.github.io/UnityMacOS-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)**.
-
+## Add Streams and URLs using the Editor
+Please, refer to the [HISPlayer Sample](/hisplayer-sample.md) to know more about how to initialize the streams using the Editor
