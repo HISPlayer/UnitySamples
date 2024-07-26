@@ -1,1 +1,131 @@
+# HISPlayer Add Stream Sample
+
+## Import sample package
+
+Please, download the sample here -> [**HISPlayer Add Stream Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_AddStream_Sample.unitypackage.unitypackage) 
+(no need to download it if you have received it in the email).
+
+Importing the package is the same as importing other normal packages in Unity. Select the downloaded package and import it.
+
+- **Assets > Import Package > Custom Package > HISPlayer_Sample.unitypackage**
+
+<p align="center">
+<img width=70% src="https://github.com/user-attachments/assets/e2475b77-e192-4b86-9603-dcc9acbd400b">
+</p>
+
+## HISPlayer Sample configuration
+
+- Select the target platform and complete the HISPlayer configuration
+  - Android ->  [**Configure Unity for Android**](https://hisplayer.github.io/UnityAndroid-SDK/#/./setup-guide?id=_12-configure-unity-for-android)
+  - iOS ->  [**Configure Unity for iOS**](https://hisplayer.github.io/UnityiOS-SDK/#/./setup-guide?id=_12-configure-unity-for-ios)
+  - WebGL ->  [**Configure Unity for WebGL**](https://hisplayer.github.io/UnityWebGL-SDK/#/./setup-guide?id=_12-configure-unity-for-webgl)
+  - Windows ->  [**Configure Unity for Windows**](https://hisplayer.github.io/UnityWindows-SDK/#/./setup-guide?id=_12-configure-unity-for-windows)
+  - UWP ->  [**Configure Unity for UWP**](https://hisplayer.github.io/UnityWindows-SDK/#/./setup-guide?id=universal-windows-platform-uwp-settings)
+  - macOS ->  [**Configure Unity for macOS**](https://hisplayer.github.io/UnityMacOS-SDK/#/./setup-guide?id=_12-configure-unity-for-macos)
+
+- Open the scene **Assets/HISPlayerSample/Scenes/HISPlayerAddStreamSample.unity**
+
+<p align="center">
+  <img width=60% alt="image" src="https://github.com/user-attachments/assets/5c95e0a5-7e6f-4921-9f7e-4262b34fc559">
+</p>
+
+- Import TextMesh Pro Essential
+
+- Input the license key through the Inspector. **HISPlayerController** GameObject -> **HISPlayerAddStreamController** component -> **License Key**
+
+<p align="center">
+  <img width=80% alt="image" src="https://github.com/user-attachments/assets/90da9872-10d2-4b17-a324-d92094ebce97">
+</p>
+
+- Open **File** > **Build Settings** > **Add Open Scenes**
+
+<p align="center">
+  <img width="70%" alt="BuildSettings" src="https://github.com/user-attachments/assets/1d3fd1e5-edab-4ad3-aaf1-f004dd87067b">
+</p>
+
+- Build and Run
+
+To check how to set up the SDK and API usage, please refer to **Assets/HISPlayerSample/Scripts/HISPlayerAddStreamController.cs** and **HISPlayerController GameObject** in the Editor.
+
+## HISPlayer Add Stream UI Demo
+The UI components in the sample scene are fully modifiable and each stream has its own UI. The sample is intended to show a comprehensive scene using the HISPlayer SDK to help demonstrate the AddStream feature at runtime. Please, refer to the **AddStreamButton GameObject** in the Editor and the **OnAddStream function** in the **HISPlayerAddStreamController.cs script**.
+
+```C#
+/// <summary>
+/// Add a new stream following the order from the screens array
+/// </summary>
+public void OnAddStream()
+{
+    int playerIndex = totalScreens;
+
+    // 1. Prepare the StreamProperties to be added
+    StreamProperties stream = new StreamProperties();
+    stream.renderMode = HISPlayerRenderMode.RawImage;
+    stream.rawImage = screens[playerIndex].rawImage;
+    stream.autoPlay = true;
+
+    // 2. Add prepared stream
+    AddStream(stream);
+
+    // 3. Add a video content to the stream
+    AddVideoContent(playerIndex, hlsSamples[playerIndex]);
+
+    // 4. Initialize the UI for the stream
+    InitializeUI(playerIndex);
+
+    // 5. When the limit has been reached, disable the Add Stream Button
+    totalScreens++;
+    if (totalScreens >= screens.Length)
+        addStreamButtonGO.SetActive(false);
+}
+```
+
+<p align="center">
+  <img width=90% alt="image" src="https://github.com/user-attachments/assets/74cd1d09-0ac5-410e-b9e4-88083f5ad421">
+</p>
+
+<p align="center">
+  <img width=90% alt="image" src="https://github.com/user-attachments/assets/ff67a32c-2612-40fb-8e34-65fdd27403af">
+</p>
+
+## Add/Remove Streams and URLs using the Editor
+In order to add/remove streams and URLs using the Editor, please refer to the component **HISPlayerAddStreamController** attached to the **HISPlayerController GameObject** in the **Inspector**. 
+
+Please, keep in mind these actions must be done before playing the scene. 
+
+### Add/Remove Streams
+
+You can add/remove streams by pressing the buttons **+/-** in the **Multi Stream Properties list**. Once a new stream is added, please, select the render mode and the surface where you want to display your videos (Material, Raw Image or RenderTexture). 
+
+<p align="center">
+  <img width=70% alt="streams" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/f0a1521d-807a-48f5-893e-58135516b37e">
+</p>
+
+<p align="center">
+  <img width=70% alt="render-mode" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/e65f23af-cf95-4858-b654-d0199feecd71">
+</p>
+
+### Change Default URL
+To change the default video URL using your own URL, please replace the element value with your own URL in the **URL list** of the stream you want to modify.
+
+<p align="center">
+  <img width=60% alt="replace-url" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/5b876db4-f3c9-4c98-84df-f23737070f50">
+</p>
+
+### Add/Remove URLs
+
+You can add/remove URLs by selecting one element from the **Multi Stream Properties list** and then pressing the buttons **+/-** in the **Url list**. 
+
+<p align="center">
+  <img width=70% alt="add-url" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/b65bf99f-202b-436e-a9c3-f1a6b9b97eaa">
+</p>
+
+### Change video content at runtime
+For changing the content of the videos at runtime, please refer to the **ChangeVideoContent** API: 
+
+- **[Android ChangeVideoContent API](https://hisplayer.github.io/UnityAndroid-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)**.
+- **[iOS ChangeVideoContent API](https://hisplayer.github.io/UnityiOS-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)**.
+- **[WebGL ChangeVideoContent API](https://hisplayer.github.io/UnityWebGL-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex-int-resumeposition-0-adsproperties-ads-null)**.
+- **[Windows/UWP ChangeVideoContent API](https://hisplayer.github.io/UnityWindows-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)**.
+- **[macOS ChangeVideoContent API](https://hisplayer.github.io/UnityMacOS-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)**.
 
