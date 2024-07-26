@@ -48,7 +48,7 @@ Importing the package is the same as importing other normal packages in Unity. S
 To check how to set up the SDK and API usage, please refer to **Assets/HISPlayerSample/Scripts/HISPlayerAddStreamController.cs** and **HISPlayerController GameObject** in the Editor.
 
 ## HISPlayer Add Stream UI Demo
-The UI components in the sample scene are fully modifiable and each stream has its own UI. The sample is intended to show a comprehensive scene using the HISPlayer SDK to help demonstrate the AddStream feature at runtime. Please, refer to the **AddStreamButton GameObject** in the Editor and the **OnAddStream function** in the **HISPlayerAddStreamController.cs script**.
+The UI components in the sample scene are fully modifiable and each stream has its own UI. The sample is intended to show a comprehensive scene using the HISPlayer SDK to help demonstrate the AddStream feature at runtime. Please, refer to the **AddStream Button GameObject** in the Editor and the **OnAddStream function** in the **HISPlayerAddStreamController.cs script**.
 
 ```C#
 /// <summary>
