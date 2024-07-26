@@ -2,7 +2,7 @@
 
 ## Import sample package
 
-Please, download the sample here -> [**HISPlayer Add Stream Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_AddStream_Sample.unitypackage.unitypackage) 
+Please, download the sample here -> [**HISPlayer Add Stream Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_AddStream_Sample.unitypackage) 
 (no need to download it if you have received it in the email).
 
 Importing the package is the same as importing other normal packages in Unity. Select the downloaded package and import it.
