@@ -84,7 +84,7 @@ For playing DRM protected stream such as Widevine L1 content, the following OVRO
 - **Is External Surface**: True
 - **External Surface Width**: Input the desired width size. You may input the same value as the highest resolution (width) of your stream.
 - **External Surface Height**: Input the desired height size. You may input the same value as the highest resolution (height) of your stream.
-- **Is Protected Content**: True (this will enable Widevine L1 DRM protected content, and will prevent video&audio recording).  
+- **Is Protected Content**: True (this will enable Widevine L1 DRM protected content rendering, and will prevent video&audio recording).  
 
 For more info about OVROverlay settings, please refer to the [OVROverlay documentation](https://developer.oculus.com/documentation/unity/unity-ovroverlay/).
 
