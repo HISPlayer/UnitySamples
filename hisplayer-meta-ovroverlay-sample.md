@@ -47,14 +47,14 @@ In XR Plug-in Management, please make sure that you have the **Oculus** option c
 <img width="1040" alt="image" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/beb2689c-d884-495c-9fa4-07b70014dfed">
 
 ## Import HISPlayer SDK
-If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](https://hisplayer.github.io/UnityAndroid-SDK/#/./setup-guide?id=quickstart-guide). This sample only works with HISPlayer SDK v4.2.3 and above.
+If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](https://hisplayer.github.io/UnityAndroid-SDK/#/./setup-guide?id=quickstart-guide). This sample only works with HISPlayer SDK v4.3.2 and above.
 
 ## Import HISPlayer Meta Quest OVROverlay Sample
 Please, download the sample here: [**HISPlayer Meta Quest OVROverlay Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_MetaQuest_OVROverlay_Sample.unitypackage) (no need to download it if you have received it in the email). 
 
 Before using the sample, please make sure you have followed the above requirements to set-up your Unity project for Oculus and HISPlayer SDK. To use the sample, please follow these steps :
   - Set up the Meta XR All-in-One environment
-  - Import HISPlayer SDK v4.2.3(or above)
+  - Import HISPlayer SDK v4.3.2(or above)
   - Import HISPlayer Meta Quest OVROverlay Sample
   - Open Assets/HISPlayerMetaQuestSample/Scenes/HISPlayerOVROverlaySample.unity
   - Import TextMeshPro
