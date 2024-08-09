@@ -72,7 +72,7 @@ To check how to set up the SDK and API usage, please refer to Assets/HISPlayerOc
 ## Sample Explanation
 
 ### OVROverlay
-This sample utilizes [**OVROverlay**](https://developer.oculus.com/documentation/unity/unity-ovroverlay/) that enables [**Compositor Layers**](https://developer.oculus.com/resources/os-compositor-layers/). The OVROverlay script is attached to **RenderScreen** Quad GameObject. The video will be rendered on the Quad GameObject.
+This sample utilizes [**OVROverlay**](https://developer.oculus.com/documentation/unity/unity-ovroverlay/) that enables [**Compositor Layers**](https://developer.oculus.com/resources/os-compositor-layers/). The OVROverlay script is attached to **RenderScreen** Quad GameObject. The video will be rendered on the Quad GameObject. You may also create new GameObject and attach the OVROverlay script according to your needs. 
 
 <p align="center">
   <img width="70%" alt="image" src="https://github.com/user-attachments/assets/54f131a8-1331-49ed-bf17-df40311e2526">
