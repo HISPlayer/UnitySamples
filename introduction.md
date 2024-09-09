@@ -45,22 +45,6 @@ Please, refer to [HISPlayer Oculus 360 Sample](/hisplayer-oculus-360-sample.md)
 ### Minimum Unity Version
   * 2021.3
 
-## HISPlayer Meta Quest OVROverlay Sample
-
-Please, refer to [HISPlayer Meta Quest OVROverlay Sample](/hisplayer-meta-ovroverlay-sample.md)
-
-### Supported Platforms
-  * Android
-
-### Meta Quest Package
-  * [Meta XR All-in-One SDK](https://developer.oculus.com/downloads/package/meta-xr-sdk-all-in-one-upm/)
-
-### Minimum Unity Version
-  * 2021.3.26f1
-
-### Minimum HISPlayerSDK Version
-  * 4.3.2
-
 ## HISPlayer Android 360 Sample
 
 Please, refer to [HISPlayer Android 360 Sample](/hisplayer-android-360-sample.md)
