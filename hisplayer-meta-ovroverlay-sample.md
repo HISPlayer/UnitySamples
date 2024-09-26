@@ -47,7 +47,33 @@ In XR Plug-in Management, please make sure that you have the **Oculus** option c
 <img width="1040" alt="image" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/beb2689c-d884-495c-9fa4-07b70014dfed">
 
 ## Import HISPlayer SDK
-If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](https://hisplayer.github.io/UnityAndroid-SDK/#/./setup-guide?id=quickstart-guide). This sample only works with HISPlayer SDK v4.3.2.
+This sample only works with HISPlayer SDK v4.3.2. If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](https://hisplayer.github.io/UnityAndroid-SDK/#/./setup-guide?id=quickstart-guide) or follow steps below.
+
+Select the package of _HISPlayer SDK_ and import it.
+
+**Assets > Import Package > Custom Package > HISPlayerSDK unity package**
+
+<p align="center">
+<img width=70% src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/c8ff9e55-524e-48f1-a323-95b00aa5c6c7">
+</p>
+
+Open the window **Tools > HISPlayer** located in the upper side of the screen > Click on Player Settings Configuration > Select **Build Target to Android** > Set all the required settings.
+
+<p align="center">
+<img width="550" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/b3203548-b0c3-46c9-ae74-dded00c5915a">
+</p>
+
+<p align="center">
+      <img width="50%" alt="image" src="https://github.com/user-attachments/assets/31964b54-f40b-4590-a081-e45dd865f73a">
+</p>
+
+By selecting Android target 33, Unity is going to ask you to update (in the case you don't have the SDK 33 installed). Please, press "Update Android SDK" button.
+
+<p align="center">
+<img width="292" alt="image" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/d4cfb0b6-5d5f-4233-bd42-b454ae64925e">
+</p>
+
+Setting **"Plugins folder"** will create **mainTemplate.gradle** and **gradleTemplate.properties** in your ProjectRoot\Assets\Plugins\Android. Please make sure you use the correct **mainTemplate.gradle** that is generated from our SDK. If you need to modify it, please make sure the dependencies and configurations from HISPlayer SDK's mainTemplate.gradle exist in your modified gradle file.
 
 ## Import HISPlayer Meta Quest OVROverlay Sample
 Please, download the sample here: [**HISPlayer Meta Quest OVROverlay Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_MetaQuest_OVROverlay_Sample.unitypackage) (no need to download it if you have received it in the email). 
