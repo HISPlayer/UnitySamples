@@ -1,5 +1,5 @@
 # HISPlayer Meta Quest OVROverlay Sample
-The sample is intended for playing video playback using [**OVROverlay**](https://developer.oculus.com/documentation/unity/unity-ovroverlay/) that enables [**Compositor Layers**](https://developer.oculus.com/resources/os-compositor-layers/), especially for Widevine L1 DRM protected content. This sample only works with Meta Quest devices.
+The sample is intended for playing video playback using [**OVROverlay**](https://developer.oculus.com/documentation/unity/unity-ovroverlay/) that enables [**Compositor Layers**](https://developer.oculus.com/resources/os-compositor-layers/), especially for Widevine L1 DRM protected content. 8K video resoultion is supported. This sample only works with Meta Quest devices.
 
 ## Requirements
 
