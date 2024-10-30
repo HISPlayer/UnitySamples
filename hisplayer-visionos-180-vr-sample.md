@@ -38,7 +38,7 @@ If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide]
 
 - Import TextMesh Pro Essential
 
-- Input the license key through the Inspector.
+- If you received a license key from HISPlayer, input the license key through the Inspector.
   - **HISPlayerController** GameObject -> **HISPlayer180VRController** component -> **License Key**
 
 <p align="center">
