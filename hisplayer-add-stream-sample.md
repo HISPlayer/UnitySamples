@@ -31,7 +31,7 @@ Importing the package is the same as importing other normal packages in Unity. S
 
 - Import TextMesh Pro Essential
 
-- Input the license key through the Inspector. **HISPlayerController** GameObject -> **HISPlayerAddStreamController** component -> **License Key**
+- If you received a license key from HISPlayer, input the license key through the Inspector. **HISPlayerController** GameObject -> **HISPlayerAddStreamController** component -> **License Key**
 
 <p align="center">
   <img width=80% alt="image" src="https://github.com/user-attachments/assets/90da9872-10d2-4b17-a324-d92094ebce97">
