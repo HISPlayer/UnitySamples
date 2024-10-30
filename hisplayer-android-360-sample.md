@@ -28,7 +28,7 @@ Importing the package is the same as importing other normal packages in Unity. S
 
 - Import TextMesh Pro Essential
 
-- Input the license key through the Inspector Window. **StreamController** game object -> **HISPlayerSample** component -> **License Key**
+- If you received a license key from HISPlayer, input the license key through the Inspector Window. **StreamController** game object -> **HISPlayerSample** component -> **License Key**
 
 <p align="center">
 <img src="https://github.com/HISPlayer/UnitySamples/assets/32887298/11cb963a-c38d-4c38-a575-dca818f265f3">
