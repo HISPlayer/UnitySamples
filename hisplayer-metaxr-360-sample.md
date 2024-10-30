@@ -55,7 +55,7 @@ Before using the sample, please make sure you have followed the above requiremen
   - Import HISPlayer SDK
   - Import HISPlayer Meta XR Sample 
   - Open Assets/HISPlayerOculusSample/Scenes/HISPlayerOculusSample
-  - Input the license key through the Inspector Unity window: **StreamController GameObject > HISPlayerSample component > License Key**
+  - If you received a license key from HISPlayer, input the license key through the Inspector Unity window: **StreamController GameObject > HISPlayerSample component > License Key**
   - Open File > Build Settings > Add Open Scenes
   - Build and Run
 
