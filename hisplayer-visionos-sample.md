@@ -29,7 +29,7 @@ Importing the package is the same as importing other normal packages in Unity. S
 
 - Import TextMesh Pro Essential
 
-- Input the license key through the Inspector.
+- If you received a license key from HISPlayer, input the license key through the Inspector.
   - VR Mode: **HISPlayerController** GameObject -> **HISPlayerVRController** component -> **License Key**
   - MR Mode: **HISPlayerController** GameObject -> **HISPlayerMRController** component -> **License Key**
 
