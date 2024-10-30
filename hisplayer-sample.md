@@ -52,7 +52,7 @@ Importing the package is the same as importing other normal packages in Unity. S
 
 - Import TextMesh Pro Essential
 
-- Input the license key through the Inspector. **HISPlayerController** GameObject -> **HISPlayerController** component -> **License Key**
+- If you received a license key from HISPlayer, input the license key through the Inspector. **HISPlayerController** GameObject -> **HISPlayerController** component -> **License Key**
 
 <p align="center">
   <img width=80% alt="image" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/f99d01df-847e-4289-9a33-364ce9210e53">
