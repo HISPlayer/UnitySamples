@@ -13,14 +13,14 @@ First, please configure the Unity project for Oculus by following this [Tutorial
 ## Requirements
 
 #### Meta XR All-in-One version
-- Minimal Meta XR All-in-One version: 60.0
-  
+- Minimum Meta XR All-in-One version: 60.0
+
 #### Unity version
-- Minimal Unity version: 2021.3.26f1
+- Minimum Unity version: 2021.3.26f1
 
 #### HISPlayer SDK version
-- Minimal HISPlayer SDK version: 3.3.0
-  
+- Minimum HISPlayer SDK version: 3.3.0
+
 #### Supported Android Version
 - Minor version - Android 10.0 ‘Quince Tart’
 - Minimum SDK: 29
