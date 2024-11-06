@@ -7,3 +7,4 @@
 - [HISPlayer visionOS 180 Video MR Sample](/hisplayer-visionos-180-mr-sample.md)
 - [HISPlayer visionOS 180 Video VR Sample](/hisplayer-visionos-180-vr-sample.md)
 - [HISPlayer Add Stream Sample](/hisplayer-add-stream-sample.md)
+- [HISPlayer Change Scene Sample](/hisplayer-change-scene-sample.md)
