@@ -70,7 +70,10 @@ The sample is intended to show how to change between 2 Unity scenes at runtime w
   <img width=90% alt="image" src="https://github.com/user-attachments/assets/43d7be58-2cae-41a3-b3be-b291b283623a">
 </p>
 
-Before changing scene from the scene where you have HISPlayer attached, please call **Release()** API to release all of the HISPlayer resources. 
+If you are using HISPlayerSDK v4.3.0 and below, before changing scene from the scene where you have HISPlayer attached, please call **Release()** API to release all of the HISPlayer resources.
+
+If you are using HISPlayerSDK v4.4.0 and above, the **Release()** is called automatically.
+
 
 ```C#
     public void ReleasePlayer()
@@ -80,7 +83,7 @@ Before changing scene from the scene where you have HISPlayer attached, please c
             StopCoroutine(UpdateVideoPosition(i));
         }
 
-        Release();
+        Release();  // Not needed for HISPlayerSDK v4.4.0 and above
     }
 
     public void OnChangeScene()
