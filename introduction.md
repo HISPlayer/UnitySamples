@@ -106,3 +106,18 @@ Please, refer to [HISPlayer Add Stream Sample](/hisplayer-add-stream-sample.md)
 
 ### Minimum Unity Version
   * 2020.3
+
+## HISPlayer Change Scene Sample
+
+Please, refer to [HISPlayer Change Scene Sample](/hisplayer-change-scene-sample.md)
+
+### Supported Platforms
+  * Android
+  * iOS
+  * Windows
+  * UWP
+  * macOS
+  * WebGL
+
+### Minimum Unity Version
+  * 2020.3
