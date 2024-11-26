@@ -32,19 +32,6 @@ Please, refer to [HISPlayer MetaXR 360 Sample](/hisplayer-metaxr-360-sample.md)
 ### Minimum Unity Version
   * 2021.3.26f1
 
-## HISPlayer Oculus 360 Sample
-
-Please, refer to [HISPlayer Oculus 360 Sample](/hisplayer-oculus-360-sample.md)
-
-### Supported Platforms
-  * Android
-
-### Meta Quest Package
-  * [OculusIntegration.unitypackage](https://developer.oculus.com/downloads/package/unity-integration/)
-
-### Minimum Unity Version
-  * 2021.3
-
 ## HISPlayer Android 360 Sample
 
 Please, refer to [HISPlayer Android 360 Sample](/hisplayer-android-360-sample.md)
