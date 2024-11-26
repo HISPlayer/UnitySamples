@@ -24,7 +24,7 @@ Please, refer to [HISPlayer Sample](/hisplayer-sample.md)
 Please, refer to [HISPlayer MetaXR 360 Sample](/hisplayer-metaxr-360-sample.md)
 
 ### Supported Platforms
-  * Android
+  * Android (Meta Quest)
 
 ### Meta Quest Package
   * [Meta XR All-in-One SDK](https://developer.oculus.com/downloads/package/meta-xr-sdk-all-in-one-upm/)
