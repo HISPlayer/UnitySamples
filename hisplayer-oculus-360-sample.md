@@ -1,4 +1,4 @@
-# HISPlayer Oculus 360 Sample
+# HISPlayer Oculus 360 Sample (Deprecated)
 
 ## Oculus Integration
 
