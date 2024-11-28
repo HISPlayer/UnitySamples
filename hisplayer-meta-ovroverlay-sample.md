@@ -49,12 +49,12 @@ In XR Plug-in Management, please make sure that you have the **Oculus** option c
 ## Import HISPlayer SDK
 This sample only works with HISPlayer SDK v4.3.2 and v4.5.2. If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](https://hisplayer.github.io/UnityAndroid-SDK/#/./setup-guide?id=quickstart-guide) or follow steps below.
 
-Select the package of _HISPlayer SDK_ and import it.
-
 **Assets > Import Package > Custom Package > HISPlayerSDK unity package**
 
+Select the package of _HISPlayer SDK_ and import it.
+
 <p align="center">
-<img width=70% src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/c8ff9e55-524e-48f1-a323-95b00aa5c6c7">
+<img width=70% src="https://github.com/user-attachments/assets/c6c6d488-2b2c-4b79-b775-dd9dffc14471">
 </p>
 
 Open the window **Tools > HISPlayer** located in the upper side of the screen > Click on Player Settings Configuration > Select **Build Target to Android** > Set all the required settings.
