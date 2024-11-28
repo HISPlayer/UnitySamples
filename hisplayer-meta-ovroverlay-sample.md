@@ -54,7 +54,7 @@ This sample only works with HISPlayer SDK v4.3.2 and v4.5.2. If you have not imp
 Select the package of _HISPlayer SDK_ and import it.
 
 <p align="center">
-<img width=70% src="https://github.com/user-attachments/assets/c6c6d488-2b2c-4b79-b775-dd9dffc14471">
+<img width=90% src="https://github.com/user-attachments/assets/c6c6d488-2b2c-4b79-b775-dd9dffc14471">
 </p>
 
 Open the window **Tools > HISPlayer** located in the upper side of the screen > Click on Player Settings Configuration > Select **Build Target to Android** > Set all the required settings.
