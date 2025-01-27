@@ -3,7 +3,7 @@
 ## Requirements
 
 #### HISPlayer SDK
-- SDK: only in v3.4.3
+- SDK: only available in v3.4.3
 
 ## Import HISPlayer SDK
 If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](https://hisplayer.github.io/UnityAndroid-SDK/#/./setup-guide?id=quickstart-guide).
