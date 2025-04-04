@@ -169,3 +169,7 @@ To render 360 degree video using OVROverlay, you can set the **Overlay Shape** t
 <p align="center">
   <img width="80%" alt="image" src="https://github.com/user-attachments/assets/cefa37ec-0cd1-457b-b283-5d7e7e27a697">
 </p>
+
+
+### Stereoscopic Video Playback
+To render stereoscopic Left/Right or Top/Bottom video, you can set **Use Default Rects** to false and set the **Source Rects** and **Destination Rects**: [**OVROverlay Use Default Rects**](https://developers.meta.com/horizon/documentation/unity/unity-ovroverlay/#use-default-rects)
