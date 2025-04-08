@@ -163,6 +163,13 @@ Above function consists of the following operations:
   - Set the external surface from OVROverlay to HISPlayer multistream properties's **externalSurface** object. The video will be rendered on the external surface of OVROverlay.
   - Call SetUpPlayer to initialize the player and load the stream. 
 
+### Non-DRM Video Playback
+If you are not playing a DRM protected content, please modify the **MultiStreamProperties** by unchecking the **Enable DRM** checkbox to disable DRM and remove all element from **Key Server URI** list.
+
+<p align="center">
+  <img width="50%" alt="image" src="https://github.com/user-attachments/assets/5da42bb6-30bc-47c1-b4ee-70b81775286e">
+</p>
+
 ### 360 Degree Video Playback
 To render 360 degree video using OVROverlay, you can set the **Overlay Shape** to **Equirect**.
 
