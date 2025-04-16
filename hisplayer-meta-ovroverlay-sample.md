@@ -10,7 +10,7 @@ The sample is intended for playing video playback using [**OVROverlay**](https:/
 - Minimum Unity version: 2021.3.26f1
 
 #### HISPlayer SDK version
-- HISPlayer SDK version: **4.3.2**, **4.5.2**, **4.6.2**, **4.6.3**, **4.6.4**, **4.6.5**, **4.6.6**
+- HISPlayer SDK version: **4.3.2**, **4.5.2**, **4.6.2**, **4.6.3**, **4.6.4**, **4.6.5**, **4.6.6**, **4.7.2**
 
 #### Supported Android Version
 - Minor version - Android 10.0 ‘Quince Tart’
