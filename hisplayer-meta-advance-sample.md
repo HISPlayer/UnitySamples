@@ -1,5 +1,5 @@
-# HISPlayer Meta Quest OVROverlay Sample
-The sample is intended for playing video playback using [**OVROverlay**](https://developer.oculus.com/documentation/unity/unity-ovroverlay/) that enables [**Compositor Layers**](https://developer.oculus.com/resources/os-compositor-layers/), especially for Widevine L1 DRM protected content. 8K video resoultion is supported. This sample only works with Meta Quest devices.
+# HISPlayer Meta Quest SDK Sample
+The sample is intended for playing advance video playback with Widevine L1 DRM protected content. 8K video resoultion is supported. This sample only works with Meta Quest devices.
 
 ## Requirements
 
@@ -10,7 +10,7 @@ The sample is intended for playing video playback using [**OVROverlay**](https:/
 - Minimum Unity version: 2021.3.26f1
 
 #### HISPlayer SDK version
-- HISPlayer SDK version: **4.3.2**, **4.5.2**, **4.6.2**, **4.6.3**, **4.6.4**, **4.6.5**, **4.6.6**, **4.7.2**
+- HISPlayer SDK version: **4.3.2**, **4.5.2**, **4.6.2**, **4.6.3**, **4.6.4**, **4.6.5**, **4.6.6**, **4.7.2**, **4.7.3**, **4.7.4**, **4.7.5**
 
 #### Supported Android Version
 - Minor version - Android 10.0 ‘Quince Tart’
@@ -75,14 +75,14 @@ By selecting Android target 33, Unity is going to ask you to update (in the case
 
 Setting **"Plugins folder"** will create **mainTemplate.gradle** and **gradleTemplate.properties** in your ProjectRoot\Assets\Plugins\Android. Please make sure you use the correct **mainTemplate.gradle** that is generated from our SDK. If you need to modify it, please make sure the dependencies and configurations from HISPlayer SDK's mainTemplate.gradle exist in your modified gradle file.
 
-## Import HISPlayer Meta Quest OVROverlay Sample
-Please, download the sample here: [**HISPlayer Meta Quest OVROverlay Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_MetaQuest_OVROverlay_Sample.unitypackage) (no need to download it if you have received it in the email). 
+## Import HISPlayer Meta Quest Advance Sample
+Please, download the sample here: [**HISPlayer Meta Quest SDK Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_MetaQuest_OVROverlay_Sample.unitypackage) (no need to download it if you have received it in the email). 
 
 Before using the sample, please make sure you have followed the above requirements to set-up your Unity project for Oculus and HISPlayer SDK. To use the sample, please follow these steps :
   - Set up the Meta XR All-in-One environment
   - Import HISPlayer SDK
-  - Import HISPlayer Meta Quest OVROverlay Sample
-  - Open Assets/HISPlayerMetaQuestSample/Scenes/HISPlayerOVROverlaySample.unity
+  - Import HISPlayer Meta Quest SDK Sample
+  - Open Assets/HISPlayerMetaQuestSample/Scenes/HISPlayerMetaQuestSDKSample.unity
   - Import TextMeshPro
   - If you received a license key from HISPlayer, input the license key through the Inspector Unity window: **StreamController GameObject > HISPlayerSample component > License Key**
   - Open File > Build Settings > Add Open Scenes
@@ -97,31 +97,30 @@ To check how to set up the SDK and API usage, please refer to Assets/HISPlayerOc
 
 ## Sample Explanation
 
-### OVROverlay
-This sample utilizes [**OVROverlay**](https://developer.oculus.com/documentation/unity/unity-ovroverlay/) that enables [**Compositor Layers**](https://developer.oculus.com/resources/os-compositor-layers/). The OVROverlay script is attached to **RenderScreen** Quad GameObject. The video will be rendered on the Quad GameObject. You may also create new GameObject and attach the OVROverlay script according to your needs. 
+### Editor
+
+Attach OVROverlay script to **RenderScreen** Quad GameObject. The video will be rendered on the Quad GameObject.
 
 <p align="center">
   <img width="70%" alt="image" src="https://github.com/user-attachments/assets/54f131a8-1331-49ed-bf17-df40311e2526">
 </p>
 
-For playing DRM protected stream such as Widevine L1 content, the following OVROverlay properties must be set:
-- **Overlay Type**: Underlay or Overlay
-- **Overlay Shape**: Quad or Equirect (360 degree)
+Set the following OVROverlay properties:
+- **Overlay Shape**: Quad or Equirect (for 360 degree video)
 - **Is External Surface**: True
 - **External Surface Width**: Input the desired width size. You may input the same value as the highest resolution (width) of your stream.
 - **External Surface Height**: Input the desired height size. You may input the same value as the highest resolution (height) of your stream.
-- **Is Protected Content**: True (this will enable Widevine L1 DRM protected content rendering, and will prevent video&audio recording).  
+- **Is Protected Content**: True.  
 
-For more info about OVROverlay settings, please refer to the [OVROverlay documentation](https://developer.oculus.com/documentation/unity/unity-ovroverlay/).
-
-### HISPlayer and OVROverlay Connection
-To render video with OVROverlay, the **RenderMode** must be set as **External Surface** in the HISPlayer multistream properties. Please go to **StreamController** GameObject > **HISPlayerSample** script > **MultiStreamProperties** > **RenderMode**.
+In the HISPlayer multistream properties, set the **RenderMode** as **External Surface**. Please go to **StreamController** GameObject > **HISPlayerSample** script > **MultiStreamProperties** > **RenderMode** > **External Surface**.
 
 <p align="center">
   <img width="90%" alt="image" src="https://github.com/user-attachments/assets/3aff176b-16e5-46b0-b42a-0ace964c1dcc">
 </p>
 
-To check how the OVROverlay is connected with HISPlayer, please check Assets/HISPlayerOculusSample/Scripts/Sample/**HISPlayerSample.cs** script and refer to the following function:
+### Script
+
+Please check Assets/HISPlayerOculusSample/Scripts/Sample/**HISPlayerSample.cs** script and refer to the following function:
 ```
     private void SetUpOVROverlay()
     {
@@ -171,7 +170,7 @@ If you are not playing a DRM protected content, please modify the **MultiStreamP
 </p>
 
 ### 360 Degree Video Playback
-To render 360 degree video using OVROverlay, you can set the **Overlay Shape** to **Equirect**.
+To render 360 degree video, you can set the OVROverlay property **Overlay Shape** to **Equirect**.
 
 <p align="center">
   <img width="80%" alt="image" src="https://github.com/user-attachments/assets/cefa37ec-0cd1-457b-b283-5d7e7e27a697">
@@ -179,7 +178,7 @@ To render 360 degree video using OVROverlay, you can set the **Overlay Shape** t
 
 
 ### Stereoscopic Video Playback
-To render stereoscopic Left/Right or Top/Bottom video, you can set **Use Default Rects** to false and set the **Source Rects** and **Destination Rects**: [**OVROverlay Use Default Rects**](https://developers.meta.com/horizon/documentation/unity/unity-ovroverlay/#use-default-rects)
+To render stereoscopic Left/Right or Top/Bottom video, you can set the OVROverlay property **Use Default Rects** to false and set the **Source Rects** and **Destination Rects**.
 
 ## More Information, Features and APIs
 For more information about the supported features and APIs, please refer to the following [**HISPlayer Android Documentation**](https://hisplayer.github.io/UnityAndroid-SDK/#/).
