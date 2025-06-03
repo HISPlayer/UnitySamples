@@ -88,7 +88,7 @@ Before using the sample, please make sure you have followed the above requiremen
   - Open File > Build Settings > Add Open Scenes
   - Build and Run
 
-To check how to set up the SDK and API usage, please refer to Assets/HISPlayerOculusSample/Scripts/Sample/HISPlayerSample.cs and StreamController GameObject in the Editor.
+To check how to set up the SDK and API usage, please refer to Assets/HISPlayerMetaQuestSDKSample/Scripts/Sample/HISPlayerSample.cs and StreamController GameObject in the Editor.
 
 ## HISPlayer Oculus Controllers
 <p align="center">
@@ -120,11 +120,11 @@ In the HISPlayer multistream properties, set the **RenderMode** as **External Su
 
 ### Script
 
-Please check Assets/HISPlayerOculusSample/Scripts/Sample/**HISPlayerSample.cs** script and refer to the **SetUpOVROverlay()** function:
+Please check Assets/HISPlayerMetaQuestSDKSample/Scripts/Sample/**HISPlayerSample.cs** script and refer to the **SetUpMetaQuest()** function:
 - Find OVROverlay component from the GameObject (**RenderScreen**) that we have created.
 - When the external surface object has been created:
-  - Set the external surface from OVROverlay to HISPlayer multistream properties's **externalSurface** object.
-  - Call SetUpPlayer to initialize the player and load the stream. 
+  - Set the external surface to HISPlayer multistream properties's **externalSurface** object.
+  - Call SetUpPlayer() to initialize the player and load the stream. 
 
 ### Non-DRM Video Playback
 If you are not playing a DRM protected content, please modify the **MultiStreamProperties** by unchecking the **Enable DRM** checkbox to disable DRM and remove all element from **Key Server URI** list.
