@@ -120,46 +120,10 @@ In the HISPlayer multistream properties, set the **RenderMode** as **External Su
 
 ### Script
 
-Please check Assets/HISPlayerOculusSample/Scripts/Sample/**HISPlayerSample.cs** script and refer to the following function:
-```
-    private void SetUpOVROverlay()
-    {
-        // Find GameObject where OVROverlay Script is attached
-        OVROverlay overlay = overlay = GameObject.Find("RenderScreen").GetComponent<OVROverlay>();
-
-        if (overlay == null)
-            overlay = GameObject.Find("RenderScreen").AddComponent<OVROverlay>();
-
-        overlay.enabled = true;
-
-        if (overlay.isExternalSurface)
-        {
-            OVROverlay.ExternalSurfaceObjectCreated surfaceCreatedCallback = () =>
-            {
-                // Set the external surface from OVROverlay to HISPlayer multistream properties
-                multiStreamProperties[streamIndex].externalSurface = overlay.externalSurfaceObject;
-
-                // Set-up HISPlayer after setting the external surface. 
-                SetUpPlayer();
-            };
-
-            if (overlay.externalSurfaceObject == IntPtr.Zero)
-            {
-                overlay.externalSurfaceObjectCreated = surfaceCreatedCallback;
-            }
-            else
-            {
-                surfaceCreatedCallback.Invoke();
-            }
-        }
-    }
-```
-Above function consists of the following operations:
-- Find OVROverlay component from the GameObject that we have created. In this case, **RenderScreen** is the GameObject where the OVROverlay component is attached.
-- Enabled the OVROverlay Behaviours
-- Create a callback to detect when the **external surface object** from OVROverlay has been created.
+Please check Assets/HISPlayerOculusSample/Scripts/Sample/**HISPlayerSample.cs** script and refer to the **SetUpOVROverlay()** function:
+- Find OVROverlay component from the GameObject (**RenderScreen**) that we have created.
 - When the external surface object has been created:
-  - Set the external surface from OVROverlay to HISPlayer multistream properties's **externalSurface** object. The video will be rendered on the external surface of OVROverlay.
+  - Set the external surface from OVROverlay to HISPlayer multistream properties's **externalSurface** object.
   - Call SetUpPlayer to initialize the player and load the stream. 
 
 ### Non-DRM Video Playback
