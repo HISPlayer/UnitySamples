@@ -17,7 +17,7 @@ Please, refer to [HISPlayer Sample](/hisplayer-sample.md)
   * WebGL
 
 ### Minimum Unity Version
-  * 2020.3
+  * 2021
 
 ## HISPlayer MetaXR 360 Sample
 
@@ -40,7 +40,7 @@ Please, refer to [HISPlayer Android 360 Sample](/hisplayer-android-360-sample.md
   * Android
 
 ### Minimum Unity Version
-  * 2020.3
+  * 2021
 
 ## HISPlayer visionOS Sample
 
@@ -92,7 +92,7 @@ Please, refer to [HISPlayer Add Stream Sample](/hisplayer-add-stream-sample.md)
   * UWP (min SDK v3.4.0)
 
 ### Minimum Unity Version
-  * 2020.3
+  * 2021
 
 ## HISPlayer Change Scene Sample
 
@@ -107,4 +107,4 @@ Please, refer to [HISPlayer Change Scene Sample](/hisplayer-change-scene-sample.
   * WebGL
 
 ### Minimum Unity Version
-  * 2020.3
+  * 2021
