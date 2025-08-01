@@ -9,8 +9,8 @@ The sample is intended for playing advance video playback with Widevine L1 DRM p
 #### Unity version
 - Minimum Unity version: 2021.3.26f1
 
-#### HISPlayer SDK version
-- HISPlayer SDK version: **4.3.2**, **4.5.2**, **4.6.2**, **4.6.3**, **4.6.4**, **4.6.5**, **4.6.6**, **4.7.2**, **4.7.3**, **4.7.4**, **4.7.5**
+#### Supported HISPlayer SDK versions
+- All HISPlayer SDK version for Meta Quest
 
 #### Supported Android Version
 - Minor version - Android 10.0 ‘Quince Tart’
