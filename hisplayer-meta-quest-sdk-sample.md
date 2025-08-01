@@ -47,7 +47,7 @@ In XR Plug-in Management, please make sure that you have the **Oculus** option c
 <img width="1040" alt="image" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/beb2689c-d884-495c-9fa4-07b70014dfed">
 
 ## Import HISPlayer SDK
-If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](https://hisplayer.github.io/UnityAndroid-SDK/#/./setup-guide?id=quickstart-guide) or follow steps below.
+If you have not imported HISPlayer SDK yet, please follow the [Quickstart Guide](https://hisplayer.github.io/UnityMetaQuest-SDK/#/setup-guide?id=quickstart-guide) or follow steps below.
 
 **Assets > Import Package > Custom Package > HISPlayerSDK unity package**
 
@@ -145,4 +145,4 @@ To render 360 degree video, you can set the OVROverlay property **Overlay Shape*
 To render stereoscopic Left/Right or Top/Bottom video, you can set the OVROverlay property **Use Default Rects** to false and set the **Source Rects** and **Destination Rects**.
 
 ## More Information, Features and APIs
-For more information about the supported features and APIs, please refer to the following [**HISPlayer Android Documentation**](https://hisplayer.github.io/UnityAndroid-SDK/#/).
+For more information about the supported features and APIs, please refer to the following [**HISPlayer Android Documentation**](https://hisplayer.github.io/UnityMetaQuest-SDK/#/hisplayer-api).
