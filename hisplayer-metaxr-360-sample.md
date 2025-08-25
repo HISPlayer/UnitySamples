@@ -10,6 +10,8 @@ First, please configure the Unity project for Oculus by following this [Tutorial
 <img width="605" alt="image" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/b4e362ba-f3d1-4d07-a46b-7a76e73d30fb">
 </p>
 
+It's recommended to use this sample with OpenGL. If you need to use Vulkan to play high resolution video with Meta Quest devices, please [contact HISPlayer team](https://hisplayer.com/demo-unity-player-sdk-for-meta-quest/). 
+
 ## Requirements
 
 #### Meta XR All-in-One version
@@ -27,6 +29,10 @@ First, please configure the Unity project for Oculus by following this [Tutorial
 
 #### Supported Unity Color Space
 - Linear
+
+#### Recommended Graphics API
+- OpenGL
+  * For high resolution video with Vulkan usage, please [contact HISPlayer team](https://hisplayer.com/demo-unity-player-sdk-for-meta-quest/). 
 
 #### Target Architecture
 - IL2CPP - ARM64
