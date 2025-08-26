@@ -1,4 +1,4 @@
-# HISPlayer MetaXR Integration
+# HISPlayer Meta 360 Sample
 
 ## Requirements
 
